@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 
 #  Configuration บ้าๆ
-USER_TOKEN =  "MTM3NzIxMDQxMjI3MzI0MjE5Mg.GrRM28.zoGlNtY8u47GmtcD3sXg555cJtvpW-9iyp72S4" # ไปขโมยมาเอง
+USER_TOKEN =  "MTM3NzIxMDQxMjI3MzI0MjE5Mg.Gl5Q9c.hTPibttvE7UMsOrAEwaTC-_uXk7e2ihfw2OVqg" # ไปขโมยมาเอง
 CHANNEL_IDS = [
     "1213948539273613382",  # ชาแนลที่ 1
     "1164644372873224356",  # ชาแนลที่ 2  
@@ -84,3 +84,4 @@ while True:
         time.sleep(60)
 
 print("👋 จบการทำงานแล้ว ไอ้สัส!")
+
