@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 
 #  Configuration บ้าๆ
-USER_TOKEN =  "MTM3NzIxMDQxMjI3MzI0MjE5Mg.Gl5Q9c.hTPibttvE7UMsOrAEwaTC-_uXk7e2ihfw2OVqg" # ไปขโมยมาเอง
+KUY =  "MTM3NzIxMDQxMjI3MzI0MjE5Mg.GrlVQ-.Ydnbg3lLJLz4uiVwYtvj60ZogVB12XD06wUXaM" 
 CHANNEL_IDS = [
     "1213948539273613382",  # ชาแนลที่ 1
     "1164644372873224356",  # ชาแนลที่ 2  
@@ -24,7 +24,7 @@ MESSAGE = """## ขายเงินเขียว Half City
 DELAY_MINUTES = 30  # ดีเลย์ 30 นาที
 
 headers = {
-    "Authorization": USER_TOKEN,
+    "Authorization": KUY,
     "Content-Type": "application/json",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 }
@@ -84,4 +84,3 @@ while True:
         time.sleep(60)
 
 print("👋 จบการทำงานแล้ว ไอ้สัส!")
-
